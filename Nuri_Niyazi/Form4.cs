@@ -42,9 +42,9 @@ namespace Nuri_Niyazi
         public void göster()
         {
             bag.Open();
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From üyebil", bag);
-            adtr.Fill(dtst, "üyebil");
-            dataGridView1.DataSource = dtst.Tables["üyebil"];
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Books", bag);
+            adtr.Fill(dtst, "Books");
+            dataGridView1.DataSource = dtst.Tables["Books"];
             adtr.Dispose();
             bag.Close();
         }
@@ -186,6 +186,11 @@ namespace Nuri_Niyazi
             frm6.textBox6.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
             frm6.textBox7.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
             frm6.textBox8.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
