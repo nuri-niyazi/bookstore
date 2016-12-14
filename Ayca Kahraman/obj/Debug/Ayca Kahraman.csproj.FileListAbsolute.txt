@@ -1,0 +1,27 @@
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\bin\Debug\data.mdb
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe.config
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\nuriProject\Backup\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
