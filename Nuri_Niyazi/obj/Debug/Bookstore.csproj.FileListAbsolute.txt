@@ -1,0 +1,30 @@
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe.config
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Bookstore.csproj.ResolveComReference.cache
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Bookstore.csproj.GenerateResource.Cache
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form1.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form10.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form11.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form12.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form14.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form15.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form3.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form4.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form5.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form6.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form7.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form8.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Form9.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Nuri_Niyazi.Properties.Resources.resources
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Nuri_Niyazi.exe.config
+C:\Users\Nuri\Desktop\public\Nuri============\Nuri_Niyazi\bin\Debug\Nuri_Niyazi.exe.config
+C:\Users\Nuri\Desktop\public\Nuri============\Nuri_Niyazi\obj\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Nuri_Niyazi\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Nuri_Niyazi\obj\Debug\Bookstore.csproj.ResolveComReference.cache

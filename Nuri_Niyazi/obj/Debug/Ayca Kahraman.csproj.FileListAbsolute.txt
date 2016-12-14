@@ -1,0 +1,161 @@
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\HakanN\Desktop\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Documents and Settings\yeşim\Belgelerim\Alınan Dosyalarım\Yeni Klasör (3)\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\HakanN\Desktop\ödeb\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\HakanN\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\HakanN\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanN\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\HakanN\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\HakanN\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\HakanSeda\Desktop\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\HakanSeda\Desktop\12 Tb ÖDEV\ayça kahraman 119 dönem ödevi\Ayca Kahraman\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form1.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form10.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form11.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form12.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form14.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form15.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form2.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form3.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form4.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form5.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form6.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form7.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form8.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Form9.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.GenerateResource.Cache
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\bin\Debug\Ayca Kahraman.pdb
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\bin\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca_Kahraman.Properties.Resources.resources
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\obj\Debug\Ayca Kahraman.csprojResolveAssemblyReference.cache
+C:\Users\Nuri\Desktop\public\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe.config
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\bin\Debug\Ayca Kahraman.exe.config
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Interop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Ayca Kahraman.csproj.ResolveComReference.cache
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Ayca Kahraman.exe
+C:\Users\Nuri\Desktop\public\Nuri============\Ayca Kahraman\obj\Debug\Ayca Kahraman.pdb
