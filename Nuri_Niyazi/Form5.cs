@@ -49,7 +49,7 @@ namespace Nuri_Niyazi
                     if (this.Controls[i] is ComboBox) this.Controls[i].Text = "";   
                 }   
                 frm4.dtst.Tables["üyebil"].Clear();
-                frm4.göster();   
+                frm4.view();   
                 frm4.combo();   
                 MessageBox.Show("Kayıt işlemi tamamlandı !");   
                    

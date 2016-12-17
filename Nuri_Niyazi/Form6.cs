@@ -35,7 +35,7 @@ namespace Nuri_Niyazi
                 frm4.kmt.Dispose();
                 frm4.bag.Close();
                 frm4.dtst.Tables["üyebil"].Clear();
-                frm4.göster();
+                frm4.view();
                 this.Close();
             }
             catch

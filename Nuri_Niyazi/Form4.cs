@@ -39,7 +39,7 @@ namespace Nuri_Niyazi
            
         
 
-        public void göster()
+        public void view()
         {
             bag.Open();
             OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Books", bag);
@@ -68,18 +68,19 @@ namespace Nuri_Niyazi
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            göster();
+            view();
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dataGridView1.Columns[0].HeaderText = "Üye Adı";
-            dataGridView1.Columns[1].HeaderText = "Üye Soyadı";
-            dataGridView1.Columns[2].HeaderText = "Kişi/Öğrenci No";
-            dataGridView1.Columns[3].HeaderText = "Sınıfı";
-            dataGridView1.Columns[4].HeaderText = "TC Kimlik No";
-            dataGridView1.Columns[5].HeaderText = "Telefon";
-            dataGridView1.Columns[6].HeaderText = "E-Posta";
-            dataGridView1.Columns[7].HeaderText = "Adres";
-            dataGridView1.Columns[8].HeaderText = "Şehir";
+            dataGridView1.Columns[0].HeaderText = "ID";
+            dataGridView1.Columns[1].HeaderText = "Име на книга";
+            dataGridView1.Columns[2].HeaderText = "Автор";
+            dataGridView1.Columns[3].HeaderText = "Категория";
+            dataGridView1.Columns[4].HeaderText = "ISBN";
+            dataGridView1.Columns[5].HeaderText = "Брой страници";
+            dataGridView1.Columns[6].HeaderText = "Номер на рафта";
+            dataGridView1.Columns[7].HeaderText = "Дата на издаване";
+            dataGridView1.Columns[8].HeaderText = "Цена";
+            dataGridView1.Columns[9].HeaderText = "Наличност";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -89,7 +90,7 @@ namespace Nuri_Niyazi
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dtst.Tables["üyebil"].Clear();
+            dtst.Tables["Books"].Clear();
             this.Close();
         }
 
@@ -121,7 +122,7 @@ namespace Nuri_Niyazi
                     kmt.Dispose();
                     bag.Close();
                     dtst.Tables["üyebil"].Clear();
-                    göster();
+                    view();
                 }
             }
             catch
