@@ -53,14 +53,14 @@ namespace Nuri_Niyazi
         {   
             int durum;   
             bag.Open();   
-            kmt.Connection = bag;   
-            kmt.CommandText = "Select Sinifi from üyebil";   
+            kmt.Connection = bag;
+            kmt.CommandText = "Select Title from Books";   
             OleDbDataReader oku;   
             oku = kmt.ExecuteReader();   
             while (oku.Read())   
             {   
-                durum = frm5.comboBox1.FindString(oku[0].ToString());   
-                if (durum == -1) frm5.comboBox1.Items.Add(oku[0].ToString());   
+                //durum = frm5.comboBox3.FindString(oku[0].ToString());   
+                //if (durum == -1) frm5.comboBox3.Items.Add(oku[0].ToString());   
              }   
             bag.Close();   
             oku.Dispose();   
@@ -96,7 +96,7 @@ namespace Nuri_Niyazi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string silinecek;
+            string book_id;
             try
             {
                 int row = 0;
@@ -109,19 +109,19 @@ namespace Nuri_Niyazi
 
                     }
                 }
-                silinecek = dataGridView1.Rows[row].Cells[0].Value.ToString();
+                book_id = dataGridView1.Rows[row].Cells[0].Value.ToString();
 
-                DialogResult cevap;
-                cevap = MessageBox.Show("Kaydı silmek istediğinizden eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (cevap == DialogResult.Yes)
+                DialogResult answer;
+                answer = MessageBox.Show("Наистина ли искате да изтривате този книга?", "Предупреждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (answer == DialogResult.Yes)
                 {
                     bag.Open();
                     kmt.Connection = bag;
-                    kmt.CommandText = "DELETE from üyebil WHERE Üye_Adi='" + silinecek + "'";
+                    kmt.CommandText = "DELETE from Books WHERE BookID=" + book_id + "";
                     kmt.ExecuteNonQuery();
                     kmt.Dispose();
                     bag.Close();
-                    dtst.Tables["üyebil"].Clear();
+                    dtst.Tables["Books"].Clear();
                     view();
                 }
             }
@@ -137,43 +137,43 @@ namespace Nuri_Niyazi
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From üyebil", bag);
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Books", bag);
             if (textBox1.Text == "")
             {
                 kmt.Connection = bag;
-                kmt.CommandText = "Select * from üyebil";
+                kmt.CommandText = "Select * from Books";
                 adtr.SelectCommand = kmt;
-                adtr.Fill(dtst, "üyebil");
+                adtr.Fill(dtst, "Books");
             }
             if (Convert.ToBoolean(bag.State) == false)
             {
                 bag.Open();
             }
-            adtr.SelectCommand.CommandText = " Select * From üyebil" +
-                 " where(Üye_Adi like '%" + textBox1.Text + "%' )";
-            dtst.Tables["üyebil"].Clear();
-            adtr.Fill(dtst, "üyebil");
+            adtr.SelectCommand.CommandText = " Select * From Books" +
+                 " where(Title like '%" + textBox1.Text + "%' )";
+            dtst.Tables["Books"].Clear();
+            adtr.Fill(dtst, "Books");
             bag.Close();     
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From üyebil", bag);
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Books", bag);
             if (textBox2.Text == "")
             {
                 kmt.Connection = bag;
-                kmt.CommandText = "Select * from üyebil";
+                kmt.CommandText = "Select * from Books";
                 adtr.SelectCommand = kmt;
-                adtr.Fill(dtst, "üyebil");
+                adtr.Fill(dtst, "Books");
             }
             if (Convert.ToBoolean(bag.State) == false)
             {
                 bag.Open();
             }
-            adtr.SelectCommand.CommandText = " Select * From üyebil" +
-                 " where(Tc_Kimlik like '%" + textBox2.Text + "%' )";
-            dtst.Tables["üyebil"].Clear();
-            adtr.Fill(dtst, "üyebil");
+            adtr.SelectCommand.CommandText = " Select * From Books" +
+                 " where(Author like '%" + textBox2.Text + "%' )";
+            dtst.Tables["Books"].Clear();
+            adtr.Fill(dtst, "Books");
             bag.Close();     
         }
 

@@ -11,7 +11,7 @@ namespace Nuri_Niyazi
 {
     public partial class Form5 : Form
     {
-        
+
         public Form3 frm3;
         public Form4 frm4;
         public Form5()
@@ -31,32 +31,38 @@ namespace Nuri_Niyazi
 
         private void button1_Click(object sender, EventArgs e)
         {
-             if (textBox4.Text != "" )   
+            if (textBox1.Text != "")
             {
-                frm4.bag.Open();   
+                frm4.bag.Open();
                 frm4.kmt.Connection = frm4.bag;
-                frm4.kmt.CommandText = "INSERT INTO üyebil(Üye_Adi,Üy_Soydi,Nosu,Sinifi,Tc_Kimlik,Telefonu,E_Posta,Adresi,Sehir) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + comboBox1.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "','" + textBox7.Text + "','" + textBox8.Text + "') ";   
-                frm4.kmt.ExecuteNonQuery();   
-                frm4.kmt.Dispose();   
-                frm4.bag.Close();
-                textBox1.Clear(); textBox2.Clear(); textBox3.Clear(); textBox4.Clear();
-                textBox5.Clear(); textBox6.Clear(); textBox7.Clear(); textBox8.Clear();
-  
-  
-                for (int i = 0; i < this.Controls.Count; i++)   
-                {   
-                    if (this.Controls[i] is TextBox) this.Controls[i].Text = "";   
-                    if (this.Controls[i] is ComboBox) this.Controls[i].Text = "";   
-                }   
-                frm4.dtst.Tables["üyebil"].Clear();
-                frm4.view();   
-                frm4.combo();   
-                MessageBox.Show("Kayıt işlemi tamamlandı !");   
-                   
-            }   
 
+                frm4.kmt.CommandText = "INSERT INTO Books(Title,Author,Category,ISBN,Pages,ShelfNumber,DatePurchased,Price, Availability) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "','" + dateTimePicker7.Value.ToShortDateString() + "','" + textBox8.Text + "','" + Convert.ToInt32(checkBox9.Checked) + "') ";
+                frm4.kmt.ExecuteNonQuery();
+                frm4.kmt.Dispose();
+                frm4.bag.Close();
+                textBox1.Clear(); textBox2.Clear(); textBox3.Clear(); textBox5.Clear(); dateTimePicker7.Text="";
+                textBox6.Clear(); textBox6.Clear(); textBox8.Clear(); textBox4.Clear();
+
+
+                for (int i = 0; i < this.Controls.Count; i++)
+                {
+                    if (this.Controls[i] is TextBox) this.Controls[i].Text = "";
+    
+                }
+                frm4.dtst.Tables["Books"].Clear();
+                frm4.view();
+                frm4.combo();
+                MessageBox.Show("Книгата е добавена успешно !");
+
+            }
+
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
            
-        }   
         }
     }
+}
 
