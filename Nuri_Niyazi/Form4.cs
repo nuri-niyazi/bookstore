@@ -185,7 +185,7 @@ namespace Nuri_Niyazi
             frm6.textBox4.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
             frm6.textBox5.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
             frm6.textBox6.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
-            frm6.textBox7.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+            frm6.dateTimePicker7.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
             frm6.textBox8.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
         }
 

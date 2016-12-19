@@ -24,17 +24,22 @@ namespace Nuri_Niyazi
             this.Close();
         }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
                 frm4.bag.Open();
                 frm4.kmt.Connection = frm4.bag;
-                frm4.kmt.CommandText = "UPDATE üyebil SET Üye_Adi='" + textBox1.Text + "',Üy_Soydi='" + textBox2.Text + "',Nosu='" + textBox3.Text + "',Sinifi='" + comboBox1.Text + "',Tc_Kimlik='" + textBox4.Text + "',Telefonu='" + textBox5.Text + "',E_Posta='" + textBox6.Text + "',Adresi='" + textBox7.Text + "',Sehir='" + textBox8.Text + "' WHERE Üye_Adi='" + frm4.dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                frm4.kmt.CommandText = "UPDATE Books SET Title='" + textBox1.Text + "',Author='" + textBox2.Text + "',Category='" + textBox3.Text + "',ISBN='" + textBox4.Text + "',Pages='" + textBox5.Text + "',ShelfNumber='" + textBox6.Text + "',DatePurchased='" + dateTimePicker7.Value.ToShortDateString() + "',Price='" + textBox8.Text + "',Availability=" + Convert.ToInt32(checkBox9.Checked) + " WHERE BookID=" + frm4.dataGridView1.CurrentRow.Cells[0].Value.ToString() + "";
                 frm4.kmt.ExecuteNonQuery();
                 frm4.kmt.Dispose();
                 frm4.bag.Close();
-                frm4.dtst.Tables["üyebil"].Clear();
+                frm4.dtst.Tables["Books"].Clear();
                 frm4.view();
                 this.Close();
             }
