@@ -101,13 +101,12 @@ namespace Nuri_Niyazi
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            frm4.ShowDialog();
+            frm7.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frm7.ShowDialog();
+            frm4.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

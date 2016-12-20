@@ -98,6 +98,7 @@
             this.groupBox1.Size = new System.Drawing.Size(414, 328);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dateTimePicker7
             // 
@@ -364,6 +365,6 @@
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker7;
+        public System.Windows.Forms.DateTimePicker dateTimePicker7;
     }
 }

@@ -56,12 +56,7 @@ namespace Nuri_Niyazi
             kmt.Connection = bag;
             kmt.CommandText = "Select Title from Books";   
             OleDbDataReader oku;   
-            oku = kmt.ExecuteReader();   
-            while (oku.Read())   
-            {   
-                //durum = frm5.comboBox3.FindString(oku[0].ToString());   
-                //if (durum == -1) frm5.comboBox3.Items.Add(oku[0].ToString());   
-             }   
+            oku = kmt.ExecuteReader();    
             bag.Close();   
             oku.Dispose();   
         }   
@@ -187,6 +182,7 @@ namespace Nuri_Niyazi
             frm6.textBox6.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
             frm6.dateTimePicker7.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
             frm6.textBox8.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
+            frm6.checkBox9.Checked = (bool)dataGridView1.CurrentRow.Cells[9].Value;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

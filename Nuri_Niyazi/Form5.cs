@@ -61,7 +61,12 @@ namespace Nuri_Niyazi
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-           
+         
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
