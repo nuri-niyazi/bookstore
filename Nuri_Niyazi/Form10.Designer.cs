@@ -1,6 +1,6 @@
 ﻿namespace Nuri_Niyazi
 {
-    partial class Form10
+    partial class Form11
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -137,7 +137,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form11";
             this.Text = "Читатели";
-            this.Load += new System.EventHandler(this.Form10_Load);
+            this.Load += new System.EventHandler(this.Form11_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

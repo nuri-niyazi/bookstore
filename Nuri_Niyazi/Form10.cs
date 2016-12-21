@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Nuri_Niyazi
 {
-    public partial class Form10 : Form
+    public partial class Form11 : Form
     {
         public Form3 frm3;
         public Form4 frm4;
@@ -19,13 +19,11 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form9 frm9;
         public Form7 frm7;
-        public Form10 frm10;
-        public Form12 frm12;
-        public Form10()
+        public Form11 frm11;
+        public Form11()
         {
             InitializeComponent();
 
-            frm12 = new Form12();
         }
 
         public OleDbConnection bag = new OleDbConnection("Provider=Microsoft.Jet.Oledb.4.0;Data Source=data.mdb");
@@ -57,7 +55,7 @@ namespace Nuri_Niyazi
             oku.Dispose();
         }   
 
-        private void Form10_Load(object sender, EventArgs e)
+        private void Form11_Load(object sender, EventArgs e)
         {
             showList();
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -81,7 +79,7 @@ namespace Nuri_Niyazi
         private void button3_Click(object sender, EventArgs e)
         {
             
-            frm12.ShowDialog();
+  
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -144,12 +142,7 @@ namespace Nuri_Niyazi
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            frm12.textBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            frm12.textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            frm12.textBox3.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            frm12.textBox4.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
-            frm12.textBox5.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
-            frm12.textBox6.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

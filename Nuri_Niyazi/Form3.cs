@@ -26,10 +26,8 @@ namespace Nuri_Niyazi
         public Form7 frm7;
         public Form8 frm8;
         public Form9 frm9;
-        public Form10 frm10;
-        public Form12 frm12;
-        public Form14 frm14;
-        public Form15 frm15;
+        public Form11 frm11;
+
         string[] misal = { "Понякога всичко, което трябва да направиш, за да успокоиш някого, е да му напомниш, че си до него. Туве Янсон",
                             "Ако не можем да променим ситуацията, да променим себе си. Виктор Франкъл", 
                             "Чашата се пълни с много капки, но прелива само с една М. Авелок", 
@@ -54,10 +52,7 @@ namespace Nuri_Niyazi
             frm7 = new Form7();
             frm8 = new Form8();
             frm9 = new Form9();
-            frm10 = new Form10();
-            frm12 = new Form12();
-            frm14 = new Form14();
-            frm15 = new Form15();
+            frm11 = new Form11();
 
 
             frm4.frm3 = this;
@@ -66,10 +61,7 @@ namespace Nuri_Niyazi
             frm7.frm3 = this;
             frm8.frm3 = this;
             frm9.frm3 = this;
-            frm10.frm3 = this;
-            frm12.frm3 = this;
-            frm14.frm3 = this;
-            frm15.frm3 = this;
+            frm11.frm3 = this;
             
         }
   
@@ -108,17 +100,12 @@ namespace Nuri_Niyazi
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frm10.ShowDialog();
+            frm11.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
-            frm14.ShowDialog();
-        }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            frm15.ShowDialog();
         }
 
 
