@@ -37,8 +37,6 @@ C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\bin\Debug\Nuri_Niyazi.pdb
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\bin\Debug\Interop.WMPLib.dll
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form1.resources
-C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form10.resources
-C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form11.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form12.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form14.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form15.resources
@@ -53,3 +51,4 @@ C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Properties.Resources.
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Bookstore.csproj.GenerateResource.Cache
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.exe
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.pdb
+C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form10.resources

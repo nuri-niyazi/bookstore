@@ -19,17 +19,13 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form9 frm9;
         public Form7 frm7;
-        public Form11 frm11;
+        public Form10 frm10;
         public Form12 frm12;
         public Form10()
         {
             InitializeComponent();
 
-            frm11 = new Form11();
             frm12 = new Form12();
-
-            frm11.frm10 = this;
-            frm12.frm10 = this;
         }
 
         public OleDbConnection bag = new OleDbConnection("Provider=Microsoft.Jet.Oledb.4.0;Data Source=data.mdb");
@@ -39,58 +35,46 @@ namespace Nuri_Niyazi
    
         public int row = 0;
 
-        public void göster2()
+        public void showList()
         {
             bag.Open();
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From okuyucubil", bag);
-            adtr.Fill(dtst, "okuyucubil");
-            dataGridView1.DataSource = dtst.Tables["okuyucubil"];
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Clients", bag);
+            adtr.Fill(dtst, "Clients");
+            dataGridView1.DataSource = dtst.Tables["Clients"];
             adtr.Dispose();
             bag.Close();
         }
 
         public void combo2()
         {
-            int durum;
+            int status;
             bag.Open();
             kmt.Connection = bag;
-            kmt.CommandText = "Select Snf,Dogm_Yeri from okuyucubil";
+            kmt.CommandText = "Select Snf,Dogm_Yeri from Clients";
             OleDbDataReader oku;
             oku = kmt.ExecuteReader();
-            while (oku.Read())
-            {
-                durum = frm11.comboBox1.FindString(oku[0].ToString());
-                if (durum == -1) frm11.comboBox1.Items.Add(oku[0].ToString());
-                durum = frm11.comboBox2.FindString(oku[1].ToString());
-                if (durum == -1) frm11.comboBox2.Items.Add(oku[1].ToString());
-            }
             bag.Close();
             oku.Dispose();
         }   
 
         private void Form10_Load(object sender, EventArgs e)
         {
-            göster2();
+            showList();
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dataGridView1.Columns[0].HeaderText = "TC Kimlik No";
-            dataGridView1.Columns[1].HeaderText = "Adı Soyadı";
-            dataGridView1.Columns[2].HeaderText = "Sınıfı";
-            dataGridView1.Columns[3].HeaderText = "Okul No";
-            dataGridView1.Columns[4].HeaderText = "Doğum Yeri";
-            dataGridView1.Columns[5].HeaderText = "Doğum Tarihi";
-            dataGridView1.Columns[6].HeaderText = "Cinsiyet";
-            dataGridView1.Columns[7].HeaderText = "Adres";
-            dataGridView1.Columns[8].HeaderText = "Ev Telefonu";
-            dataGridView1.Columns[9].HeaderText = "Cep Telefonu";
-            dataGridView1.Columns[10].HeaderText = "E-Mail";
-            dataGridView1.Columns[11].HeaderText = "Üyeliğiniz Varmı?";
-            dataGridView1.Columns[12].HeaderText = "Üyelik Başlangış Tarihiniz";
+            dataGridView1.Columns[0].HeaderText = "ЕГН на клиента";
+            dataGridView1.Columns[1].HeaderText = "Име";
+            dataGridView1.Columns[2].HeaderText = "Фамилия";
+            dataGridView1.Columns[3].HeaderText = "Адрес";
+            dataGridView1.Columns[4].HeaderText = "Телефон";
+            dataGridView1.Columns[5].HeaderText = "GSM номер";
+            dataGridView1.Columns[6].HeaderText = "Дата на регистрацията";
+            dataGridView1.Columns[7].HeaderText = "Отстъпка ползвана от клиента";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dtst.Tables["okuyucubil"].Clear();
+            dtst.Tables["Clients"].Clear();
             this.Close();
         }
 
@@ -100,87 +84,63 @@ namespace Nuri_Niyazi
             frm12.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            string silinecek;
+            string egn;
+            
             try
             {
                 int row = 0;
                 for (row = 0; row <= dataGridView1.Rows.Count; row++)
                 {
 
-                    if (dataGridView1.Rows[row].Cells[0].Selected == true || dataGridView1.Rows[row].Cells[1].Selected == true || dataGridView1.Rows[row].Cells[2].Selected == true || dataGridView1.Rows[row].Cells[3].Selected == true || dataGridView1.Rows[row].Cells[4].Selected == true || dataGridView1.Rows[row].Cells[5].Selected == true || dataGridView1.Rows[row].Cells[6].Selected == true || dataGridView1.Rows[row].Cells[7].Selected == true || dataGridView1.Rows[row].Cells[8].Selected == true || dataGridView1.Rows[row].Cells[9].Selected == true || dataGridView1.Rows[row].Cells[10].Selected == true || dataGridView1.Rows[row].Cells[11].Selected == true || dataGridView1.Rows[row].Cells[12].Selected == true)
+                    if (dataGridView1.Rows[row].Cells[0].Selected == true)
                     {
                         break;
 
                     }
                 }
-                silinecek = dataGridView1.Rows[row].Cells[0].Value.ToString();
+                egn = dataGridView1.Rows[row].Cells[0].Value.ToString();
 
                 DialogResult cevap;
-                cevap = MessageBox.Show("Kaydı silmek istediğinizden eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                cevap = MessageBox.Show("Наистина ли искате да изтривате този запис!", "Предупреждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (cevap == DialogResult.Yes)
                 {
                     bag.Open();
                     kmt.Connection = bag;
-                    kmt.CommandText = "DELETE from okuyucubil WHERE Tc_No='" + silinecek + "'";
+                    kmt.CommandText = "DELETE from Clients WHERE EGN='" + egn + "'";
                     kmt.ExecuteNonQuery();
                     kmt.Dispose();
                     bag.Close();
-                    dtst.Tables["okuyucubil"].Clear();
-                    göster2();
+                    dtst.Tables["Clients"].Clear();
+                    showList();
                 }
             }
             catch
             { ;}
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frm11.ShowDialog();
-        }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From okuyucubil", bag);
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Clients", bag);
             if (textBox1.Text == "")
             {
                 kmt.Connection = bag;
-                kmt.CommandText = "Select * from okuyucubil";
+                kmt.CommandText = "Select * from Clients";
                 adtr.SelectCommand = kmt;
-                adtr.Fill(dtst, "okuyucubil");
+                adtr.Fill(dtst, "Clients");
             }
-            if (Convert.ToBoolean(bag.State) == false)
-            {
-                bag.Open();
-            }
-            adtr.SelectCommand.CommandText = " Select * From okuyucubil" +
-                 " where(Adi_Syd like '%" + textBox1.Text + "%' )";
-            dtst.Tables["okuyucubil"].Clear();
-            adtr.Fill(dtst, "okuyucubil");
+
+            adtr.SelectCommand.CommandText = " Select * From Clients" +
+                 " where(EGN like '%" + textBox1.Text + "%' OR FirstName like '%" + textBox1.Text + "%' OR LastName like '%" + textBox1.Text + "%' )";
+            dtst.Tables["Clients"].Clear();
+            adtr.Fill(dtst, "Clients");
             bag.Close();     
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From okuyucubil", bag);
-            if (textBox2.Text == "")
-            {
-                kmt.Connection = bag;
-                kmt.CommandText = "Select * from okuyucubil";
-                adtr.SelectCommand = kmt;
-                adtr.Fill(dtst, "okuyucubil");
-            }
-            if (Convert.ToBoolean(bag.State) == false)
-            {
-                bag.Open();
-            }
-            adtr.SelectCommand.CommandText = " Select * From okuyucubil" +
-                 " where(Dogm_Yeri like '%" + textBox2.Text + "%' )";
-            dtst.Tables["okuyucubil"].Clear();
-            adtr.Fill(dtst, "okuyucubil");
-            bag.Close();     
-        }
+
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -190,11 +150,22 @@ namespace Nuri_Niyazi
             frm12.textBox4.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
             frm12.textBox5.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
             frm12.textBox6.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
-            frm12.textBox7.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
-            frm12.textBox8.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();
-            frm12.textBox9.Text = dataGridView1.CurrentRow.Cells[10].Value.ToString();
-            frm12.textBox10.Text = dataGridView1.CurrentRow.Cells[11].Value.ToString();
-            frm12.textBox11.Text = dataGridView1.CurrentRow.Cells[12].Value.ToString();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

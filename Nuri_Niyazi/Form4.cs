@@ -51,7 +51,7 @@ namespace Nuri_Niyazi
 
         public void combo()   
         {   
-            int durum;   
+            int status;   
             bag.Open();   
             kmt.Connection = bag;
             kmt.CommandText = "Select Title from Books";   

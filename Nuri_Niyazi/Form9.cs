@@ -18,7 +18,6 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form7 frm7;
         public Form10 frm10;
-        public Form11 frm11;
         public Form12 frm12;
         public Form9()
         {

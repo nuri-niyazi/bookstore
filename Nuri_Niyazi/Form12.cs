@@ -19,7 +19,6 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form9 frm9;
         public Form10 frm10;
-        public Form11 frm11;
         public Form12()
         {
             InitializeComponent();
@@ -41,7 +40,7 @@ namespace Nuri_Niyazi
                 frm10.kmt.Dispose();
                 frm10.bag.Close();
                 frm10.dtst.Tables["okuyucubil"].Clear();
-                frm10.göster2();
+                frm10.showList();
                 this.Close();
             }
             catch

@@ -27,7 +27,6 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form9 frm9;
         public Form10 frm10;
-        public Form11 frm11;
         public Form12 frm12;
         public Form14 frm14;
         public Form15 frm15;
@@ -56,7 +55,6 @@ namespace Nuri_Niyazi
             frm8 = new Form8();
             frm9 = new Form9();
             frm10 = new Form10();
-            frm11 = new Form11();
             frm12 = new Form12();
             frm14 = new Form14();
             frm15 = new Form15();
@@ -69,7 +67,6 @@ namespace Nuri_Niyazi
             frm8.frm3 = this;
             frm9.frm3 = this;
             frm10.frm3 = this;
-            frm11.frm3 = this;
             frm12.frm3 = this;
             frm14.frm3 = this;
             frm15.frm3 = this;
@@ -123,6 +120,7 @@ namespace Nuri_Niyazi
         {
             frm15.ShowDialog();
         }
+
 
        
     }
