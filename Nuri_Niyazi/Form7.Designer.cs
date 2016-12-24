@@ -82,12 +82,10 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(756, 404);
             this.dataGridView1.TabIndex = 11;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.d3A_big_pack_search;
+           // this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.d3A_big_pack_search;
             this.pictureBox1.Location = new System.Drawing.Point(346, 417);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(61, 53);

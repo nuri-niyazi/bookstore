@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kutuphane%5B1%5D" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kutuphane%5B1%5D.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="adsız3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\adsНz.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="daaddaadad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daaddaadad1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="muzık" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muzНk.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,8 +127,8 @@
   <data name="adsız" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adsНz.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CRISTAL USERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\CRISTAL USERS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="adsız2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adsНz.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,14 +136,8 @@
   <data name="Book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Book.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Windows-Media-Player-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Windows-Media-Player-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="adsız1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adsНz1.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d3A big pack search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\d3A big pack search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="adsız4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adsНz.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,23 +145,17 @@
   <data name="daaddaadad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\daaddaadad.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rubiks cube - full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\rubiks cube - full.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="daaddaadad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daaddaadad2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\user_group.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kutuphane%5B1%5D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kutuphane%5B1%5D1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="daaddaadad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\daaddaadad2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="daaddaadad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\daaddaadad1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="takenBooks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\takenBooks.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="d3A big pack search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d3A big pack search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

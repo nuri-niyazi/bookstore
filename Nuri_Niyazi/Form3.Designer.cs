@@ -36,14 +36,14 @@
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -103,6 +103,65 @@
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(277, 41);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(120, 27);
+            this.label3.TabIndex = 32;
+            this.label3.Text = "Библиотека";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Location = new System.Drawing.Point(522, 80);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(102, 228);
+            this.groupBox2.TabIndex = 33;
+            this.groupBox2.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.Image = global::Nuri_Niyazi.Properties.Resources.takenBooks;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.ImageKey = "CRISTAL USERS.png";
+            this.button5.Location = new System.Drawing.Point(9, 17);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(85, 78);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Взети книги";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.ImageKey = "BRIGHTS DELETE.png";
+            this.button4.ImageList = this.ımageList1;
+            this.button4.Location = new System.Drawing.Point(9, 160);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(87, 61);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Изход";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.daaddaadad;
+            this.pictureBox1.Location = new System.Drawing.Point(177, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(314, 228);
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -147,64 +206,6 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(277, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 27);
-            this.label3.TabIndex = 32;
-            this.label3.Text = "Библиотека";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Location = new System.Drawing.Point(522, 80);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(102, 228);
-            this.groupBox2.TabIndex = 33;
-            this.groupBox2.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.ImageKey = "CRISTAL USERS.png";
-            this.button5.Location = new System.Drawing.Point(9, 17);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(85, 78);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Взети книги";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.ImageKey = "BRIGHTS DELETE.png";
-            this.button4.ImageList = this.ımageList1;
-            this.button4.Location = new System.Drawing.Point(9, 160);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 61);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Изход";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.daaddaadad;
-            this.pictureBox1.Location = new System.Drawing.Point(177, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(314, 228);
-            this.pictureBox1.TabIndex = 31;
-            this.pictureBox1.TabStop = false;
             // 
             // Form3
             // 

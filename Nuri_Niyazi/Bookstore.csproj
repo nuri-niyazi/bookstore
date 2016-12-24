@@ -105,12 +105,6 @@
     <Compile Include="Form8.Designer.cs">
       <DependentUpon>Form8.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -142,10 +136,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -208,6 +198,7 @@
     <Content Include="Resources\adsНz.PNG" />
     <Content Include="Resources\adsНz1.PNG" />
     <Content Include="Resources\adsНz2.PNG" />
+    <None Include="Resources\d3A big pack search.png" />
     <Content Include="Resources\daaddaadad.jpg" />
     <Content Include="Resources\daaddaadad1.jpg" />
     <Content Include="Resources\daaddaadad2.jpg" />
@@ -215,6 +206,7 @@
     <Content Include="Resources\kutuphane%255B1%255D1.jpg" />
     <None Include="Resources\login.png" />
     <Content Include="Resources\muzНk.PNG" />
+    <None Include="Resources\takenBooks.jpg" />
     <Content Include="Resources\Windows-Media-Player-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

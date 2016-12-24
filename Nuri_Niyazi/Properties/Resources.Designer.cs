@@ -93,16 +93,6 @@ namespace Nuri_Niyazi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap adsız3 {
-            get {
-                object obj = ResourceManager.GetObject("adsız3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap adsız4 {
             get {
                 object obj = ResourceManager.GetObject("adsız4", resourceCulture);
@@ -116,16 +106,6 @@ namespace Nuri_Niyazi.Properties {
         internal static System.Drawing.Bitmap Book {
             get {
                 object obj = ResourceManager.GetObject("Book", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap CRISTAL_USERS {
-            get {
-                object obj = ResourceManager.GetObject("CRISTAL USERS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,26 +153,6 @@ namespace Nuri_Niyazi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kutuphane_5B1_5D {
-            get {
-                object obj = ResourceManager.GetObject("kutuphane%5B1%5D", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kutuphane_5B1_5D1 {
-            get {
-                object obj = ResourceManager.GetObject("kutuphane%5B1%5D1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap login {
             get {
                 object obj = ResourceManager.GetObject("login", resourceCulture);
@@ -213,9 +173,9 @@ namespace Nuri_Niyazi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rubiks_cube___full {
+        internal static System.Drawing.Bitmap takenBooks {
             get {
-                object obj = ResourceManager.GetObject("rubiks cube - full", resourceCulture);
+                object obj = ResourceManager.GetObject("takenBooks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,16 +186,6 @@ namespace Nuri_Niyazi.Properties {
         internal static System.Drawing.Bitmap user_group {
             get {
                 object obj = ResourceManager.GetObject("user_group", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Windows_Media_Player_icon {
-            get {
-                object obj = ResourceManager.GetObject("Windows-Media-Player-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

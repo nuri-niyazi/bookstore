@@ -17,7 +17,6 @@ namespace Nuri_Niyazi
         public Form5 frm5;
         public Form6 frm6;
         public Form8 frm8;
-        public Form9 frm9;
         public Form10 frm10;
   
         public Form7()
@@ -25,10 +24,8 @@ namespace Nuri_Niyazi
             InitializeComponent();
             
             frm8 = new Form8();
-            frm9 = new Form9();
             
             frm8.frm7 = this;
-            frm9.frm7 = this;
           
         }
 
@@ -88,12 +85,6 @@ namespace Nuri_Niyazi
             frm8.ShowDialog();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-          
-            frm9.ShowDialog();
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             string silinecek;
@@ -147,24 +138,7 @@ namespace Nuri_Niyazi
                  " where(AuthorID like '%" + textBox1.Text + "%' OR FirstName like '%" + textBox1.Text + "%' OR LastName like '%" + textBox1.Text + "%')";
             dtst.Tables["Authors"].Clear();
             adtr.Fill(dtst, "Authors");
-            bag.Close();     
-        }
-
-      
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            frm9.textBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            frm9.textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            frm9.textBox3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            frm9.textBox4.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            frm9.textBox5.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
-            frm9.textBox6.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            bag.Close();
         }
     }
 }

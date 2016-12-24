@@ -43,7 +43,6 @@ C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form5.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form6.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form7.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form8.resources
-C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Form9.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.Properties.Resources.resources
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Bookstore.csproj.GenerateResource.Cache
 C:\Users\Nuri\Desktop\c#\Nuri_Niyazi\obj\Debug\Nuri_Niyazi.exe

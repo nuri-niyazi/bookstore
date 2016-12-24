@@ -66,10 +66,8 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(642, 404);
+            this.dataGridView1.Size = new System.Drawing.Size(772, 404);
             this.dataGridView1.TabIndex = 11;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // groupBox1
             // 
@@ -81,18 +79,17 @@
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Търсене";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+ 
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.d3A_big_pack_search;
+          // this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.d3A_big_pack_search;
             this.pictureBox1.Location = new System.Drawing.Point(416, 423);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(61, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button5
             // 
@@ -100,7 +97,7 @@
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.ImageKey = "HEIN\'S AQUA STUFF 1.0MIXTHEPIX LOGO.png";
             this.button5.ImageList = this.ımageList1;
-            this.button5.Location = new System.Drawing.Point(579, 422);
+            this.button5.Location = new System.Drawing.Point(709, 418);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 54);
             this.button5.TabIndex = 15;
@@ -129,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(663, 484);
+            this.ClientSize = new System.Drawing.Size(796, 484);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);

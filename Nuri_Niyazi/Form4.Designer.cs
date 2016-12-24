@@ -103,13 +103,13 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Nuri_Niyazi.Properties.Resources.d3A_big_pack_search;
             this.pictureBox1.Location = new System.Drawing.Point(492, 423);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(65, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button3
             // 

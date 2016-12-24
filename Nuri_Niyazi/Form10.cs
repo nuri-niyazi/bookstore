@@ -17,7 +17,6 @@ namespace Nuri_Niyazi
         public Form5 frm5;
         public Form6 frm6;
         public Form8 frm8;
-        public Form9 frm9;
         public Form7 frm7;
         public Form10 frm10;
         public Form10()
@@ -136,28 +135,6 @@ namespace Nuri_Niyazi
             dtst.Tables["Clients"].Clear();
             adtr.Fill(dtst, "Clients");
             bag.Close();     
-        }
-
-
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
     }

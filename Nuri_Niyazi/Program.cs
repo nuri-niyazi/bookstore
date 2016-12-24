@@ -15,7 +15,7 @@ namespace Nuri_Niyazi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form8());
+            Application.Run(new Form1());
         }
     }
 }
