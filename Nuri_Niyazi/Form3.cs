@@ -26,7 +26,7 @@ namespace Nuri_Niyazi
         public Form7 frm7;
         public Form8 frm8;
         public Form9 frm9;
-        public Form11 frm11;
+        public Form10 frm10;
 
         string[] misal = { "Понякога всичко, което трябва да направиш, за да успокоиш някого, е да му напомниш, че си до него. Туве Янсон",
                             "Ако не можем да променим ситуацията, да променим себе си. Виктор Франкъл", 
@@ -52,7 +52,7 @@ namespace Nuri_Niyazi
             frm7 = new Form7();
             frm8 = new Form8();
             frm9 = new Form9();
-            frm11 = new Form11();
+            frm10 = new Form10();
 
 
             frm4.frm3 = this;
@@ -61,7 +61,7 @@ namespace Nuri_Niyazi
             frm7.frm3 = this;
             frm8.frm3 = this;
             frm9.frm3 = this;
-            frm11.frm3 = this;
+            frm10.frm3 = this;
             
         }
   
@@ -100,7 +100,7 @@ namespace Nuri_Niyazi
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frm11.ShowDialog();
+            frm10.ShowDialog();
         }
 
         private void button5_Click_1(object sender, EventArgs e)

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Nuri_Niyazi
 {
-    public partial class Form11 : Form
+    public partial class Form10 : Form
     {
         public Form3 frm3;
         public Form4 frm4;
@@ -19,8 +19,8 @@ namespace Nuri_Niyazi
         public Form8 frm8;
         public Form9 frm9;
         public Form7 frm7;
-        public Form11 frm11;
-        public Form11()
+        public Form10 frm10;
+        public Form10()
         {
             InitializeComponent();
 
@@ -55,7 +55,7 @@ namespace Nuri_Niyazi
             oku.Dispose();
         }   
 
-        private void Form11_Load(object sender, EventArgs e)
+        private void Form10_Load(object sender, EventArgs e)
         {
             showList();
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;

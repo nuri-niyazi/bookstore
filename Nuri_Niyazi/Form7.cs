@@ -18,7 +18,7 @@ namespace Nuri_Niyazi
         public Form6 frm6;
         public Form8 frm8;
         public Form9 frm9;
-        public Form11 frm11;
+        public Form10 frm10;
   
         public Form7()
         {
@@ -57,13 +57,6 @@ namespace Nuri_Niyazi
             kmt.CommandText = "Select Dolap_Ab,Kategorisi from Authors";
             OleDbDataReader oku;
             oku = kmt.ExecuteReader();
-            while (oku.Read())
-            {
-                durum = frm8.comboBox1.FindString(oku[0].ToString());
-                if (durum == -1) frm8.comboBox1.Items.Add(oku[0].ToString());
-                durum = frm8.comboBox2.FindString(oku[1].ToString());
-                if (durum == -1) frm8.comboBox2.Items.Add(oku[1].ToString());
-            }
             bag.Close();
             oku.Dispose();
         }   
