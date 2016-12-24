@@ -36,9 +36,9 @@ namespace Nuri_Niyazi
         public void showList()
         {
             bag.Open();
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Clients", bag);
-            adtr.Fill(dtst, "Clients");
-            dataGridView1.DataSource = dtst.Tables["Clients"];
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From TakenBooks", bag);
+            adtr.Fill(dtst, "TakenBooks");
+            dataGridView1.DataSource = dtst.Tables["TakenBooks"];
             adtr.Dispose();
             bag.Close();
         }
@@ -48,7 +48,7 @@ namespace Nuri_Niyazi
             int status;
             bag.Open();
             kmt.Connection = bag;
-            kmt.CommandText = "Select Snf,Dogm_Yeri from Clients";
+            kmt.CommandText = "Select Snf,Dogm_Yeri from TakenBooks";
             OleDbDataReader oku;
             oku = kmt.ExecuteReader();
             bag.Close();
@@ -60,19 +60,18 @@ namespace Nuri_Niyazi
             showList();
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dataGridView1.Columns[0].HeaderText = "ЕГН на клиента";
-            dataGridView1.Columns[1].HeaderText = "Име";
-            dataGridView1.Columns[2].HeaderText = "Фамилия";
-            dataGridView1.Columns[3].HeaderText = "Адрес";
-            dataGridView1.Columns[4].HeaderText = "Телефон";
-            dataGridView1.Columns[5].HeaderText = "GSM номер";
-            dataGridView1.Columns[6].HeaderText = "Дата на регистрацията";
-            dataGridView1.Columns[7].HeaderText = "Отстъпка ползвана от клиента";
+            dataGridView1.Columns[0].HeaderText = "Име на книга";
+            dataGridView1.Columns[1].HeaderText = "Автор";
+            dataGridView1.Columns[2].HeaderText = "Дата на взимане";
+            dataGridView1.Columns[3].HeaderText = "ЕГН на клиента";
+            dataGridView1.Columns[4].HeaderText = "Име";
+            dataGridView1.Columns[5].HeaderText = "Фамилия";
+
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dtst.Tables["Clients"].Clear();
+            dtst.Tables["TakenBooks"].Clear();
             this.Close();
         }
 
@@ -82,59 +81,24 @@ namespace Nuri_Niyazi
   
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            string egn;
-            
-            try
-            {
-                int row = 0;
-                for (row = 0; row <= dataGridView1.Rows.Count; row++)
-                {
-
-                    if (dataGridView1.Rows[row].Cells[0].Selected == true)
-                    {
-                        break;
-
-                    }
-                }
-                egn = dataGridView1.Rows[row].Cells[0].Value.ToString();
-
-                DialogResult cevap;
-                cevap = MessageBox.Show("Наистина ли искате да изтривате този запис!", "Предупреждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (cevap == DialogResult.Yes)
-                {
-                    bag.Open();
-                    kmt.Connection = bag;
-                    kmt.CommandText = "DELETE from Clients WHERE EGN='" + egn + "'";
-                    kmt.ExecuteNonQuery();
-                    kmt.Dispose();
-                    bag.Close();
-                    dtst.Tables["Clients"].Clear();
-                    showList();
-                }
-            }
-            catch
-            { ;}
-        }
-
+       
 
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From Clients", bag);
+            OleDbDataAdapter adtr = new OleDbDataAdapter("select * From TakenBooks", bag);
             if (textBox1.Text == "")
             {
                 kmt.Connection = bag;
-                kmt.CommandText = "Select * from Clients";
+                kmt.CommandText = "Select * from TakenBooks";
                 adtr.SelectCommand = kmt;
-                adtr.Fill(dtst, "Clients");
+                adtr.Fill(dtst, "TakenBooks");
             }
 
-            adtr.SelectCommand.CommandText = " Select * From Clients" +
-                 " where(EGN like '%" + textBox1.Text + "%' OR FirstName like '%" + textBox1.Text + "%' OR LastName like '%" + textBox1.Text + "%' )";
-            dtst.Tables["Clients"].Clear();
-            adtr.Fill(dtst, "Clients");
+            adtr.SelectCommand.CommandText = " Select * From TakenBooks" +
+                 " where(EGN like '%" + textBox1.Text + "%' OR FirstName like '%" + textBox1.Text + "%' OR LastName like '%" + textBox1.Text + "%'  OR Title like '%" + textBox1.Text + "%'  OR Author like '%" + textBox1.Text + "%' OR DateTaked like '%" + textBox1.Text + "%')";
+            dtst.Tables["TakenBooks"].Clear();
+            adtr.Fill(dtst, "TakenBooks");
             bag.Close();     
         }
 
